@@ -31,7 +31,7 @@ class AuthorAdmin(admin.ModelAdmin, DynamicArrayMixin):
 
     fieldsets = (
         ('General', {
-            'fields': ('name',),
+            'fields': (),
             'classes': ('baton-tabs-init', 'baton-tab-group-fs-countryfactsadmin--inline-country', 'baton-tab-group-fs-questionmodelinline--inline-content_type_ref', ),
         }),
         ('Country Facts', {
